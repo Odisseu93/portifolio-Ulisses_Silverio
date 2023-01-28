@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.btn-menu {
+    background: $bg-btnMenu;
+    width: fit-content;
+    font-size: 24px;
+    border: none;
+
+    &:hover {
+        background: $bg-btnMenu-hover;
+    }
+
+    --bs-btn-active-bg: #{$bg-btnMenu-active};
+}
