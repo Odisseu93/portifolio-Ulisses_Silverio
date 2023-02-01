@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import { Badge } from 'react-bootstrap'
+import {BrowserRouter as Router , Routes, Route} from 'react-router-dom'
+import Home from './pages/home'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="App">
-      <Badge  className='m-3'>Hello World!</Badge>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   )
 }

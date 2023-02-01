@@ -1,0 +1,74 @@
+@import '../../styles/variables';
+
+.main,
+.placeholder-main {
+    height: 85vh;
+    width: 100%;
+    background: $bg-body;
+
+}
+
+.main {
+    display: grid;
+    grid-template-areas:
+        ". . ."
+        ". . a"
+        ". . ."
+        ". b ."
+        ". . ."
+        ". . c"
+        ". . .";
+}
+
+
+
+.greeting,
+.show-menu {
+    font-size: 20px;
+    line-height: 1.5rem;
+    width: fit-content;
+    height: min-content;
+    overflow-wrap: break-word;
+}
+
+.greeting {
+    grid-area: a;
+}
+
+.show-menu {
+    width: 353px;
+}
+
+.image-perfil {
+    width: 168px;
+    grid-area: b;
+}
+
+.container-btn-menu {
+    width: fit-content;
+    height: auto;
+    grid-area: c;
+}
+
+.header-mobile-home,
+.footer-mobile-home {
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    background: $bg-menu-mobile;
+    width: 100%;
+    height: 5%;
+}
+
+.name {
+    color: $highLight-color;
+}
+
+.professional-title {
+    color: white;
+}
+
+.footer-mobile-home {
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+}
