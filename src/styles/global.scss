@@ -1,5 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss" ;
 @import "../components/BtnMenu/styles.scss";
+@import "../pages/home/styles.scss";
 
 // reset CSS
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -36,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
