@@ -43,7 +43,7 @@ const Home: React.FC = () => {
           bg="dark"
           onClick={() => setShowMain(!showMain)}
         >
-          {showMain ? "Aperte aqui..." : "Fique a vontade!"}
+          {showMain ? "Fique a vontade!"  : "Aperte aqui..."}
         </Badge>
       </footer>
     </>
