@@ -54,7 +54,7 @@ const Home: React.FC = () => {
               bg="dark"
               onClick={() => setShowMain(!showMain)}
             >
-              {showMain ? "Fique a vontade!" : "Aperte aqui..."}
+              {showMain ? <p>Fique a vontade!</p> : <p><span className="blink">|</span><span className="text-muted">Mensagem</span></p>}
             </Badge>
           </footer>
         </>
